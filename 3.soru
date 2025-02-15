@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+int x, y;
+    printf("x sayisini gir:");
+    scanf("%d", &x);
+    y = 3 * x * x;
+    printf("y = %d\n", y);
+return 0;
+}

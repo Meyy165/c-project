@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+ int s1, s2, s3;
+    float ort;
+    printf("sayilari girin:");
+    scanf("%d%d%d", &s1, &s2, &s3);
+    ort = (float)(s1 + s2 + s3) / 3;
+    printf("sayilarin ortalamasi: %.2f\n", ort);
+return 0;
+}

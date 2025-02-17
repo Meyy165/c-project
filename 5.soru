@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+int r;
+    float pi = 3.14, daire_alan;
+    printf("yaricapi girin:");
+    scanf("%d", &r);
+    daire_alan = pi * r * r;
+    printf("alan: %.2f\n", daire_alan);
+return 0;
+}

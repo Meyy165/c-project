@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+ int temp;
+    printf("a ve b yi gir:");
+    scanf("%d%d", &a, &b);
+    temp = a;
+    a = b;
+    b = temp;
+    printf("a = %d\nb = %d\n", a, b);
+return 0;
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+int toplam_sayi = 0;
+    printf("sayilari gir:");
+    scanf("%d", &a);
+    toplam_sayi += a;
+    printf("sayilari gir:");
+    scanf("%d", &a);
+    toplam_sayi += a;
+    printf("sayilari gir:");
+    scanf("%d", &a);
+    toplam_sayi += a;
+    printf("3 farkli sayinin toplami: %d\n", toplam_sayi);
+return 0;
+}

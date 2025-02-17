@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+int yil, hafta, gun, gunno;
+    printf("gunno sayisini girin:");
+    scanf("%d", &gunno);
+    yil = gunno / 365;
+    hafta = (gunno % 365) / 7;
+    gun = (gunno % 365) % 7;
+    printf("yil: %d, hafta: %d, gun: %d\n", yil, hafta, gun);
+return 0;
+}

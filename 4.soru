@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+ int k, u, alan, cevre;
+    printf("kisa ve uzun kenari girin:");
+    scanf("%d%d", &k, &u);
+    alan = u * k;
+    cevre = 2 * (k + u);
+    printf("alan: %d\n", alan);
+    printf("cevre: %d\n", cevre);
+return 0;
+}
